@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/no_internet_layout"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Internet Connection Found !!!!...."
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/fix_internet_connection" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/try_again"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_button"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="Try again"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

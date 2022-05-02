@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ServiceDetailsScreen"
+    android:background="@color/back_blue">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/green">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_arrow_white" />
+
+        <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Title Name"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/corner"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/corner_logo" />
+    </RelativeLayout>
+          <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/bio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_linear"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Customer Details"
+                    android:textColor="@color/navy"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:drawableStartCompat="@drawable/ic_person_black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:padding="5dp"
+                    android:text="Customer Name"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/show_cus_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="Customer Name"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:padding="5dp"
+                    android:text="Mobile Number"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/show_cus_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="Customer Mobile Number"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="5dp"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:padding="5dp"
+                    android:text="Email Id"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/show_cus_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="Email Id"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Lead Details"
+                    android:textColor="@color/navy"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:drawableStartCompat="@drawable/ic_leads_black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:padding="5dp"
+                    android:text="Lead Source"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/show_lead_source"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="Lead Source"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text="Branch"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/show_lead_branch"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="Service Branch"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Service Detail"
+                    android:textColor="@color/navy"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:drawableStartCompat="@drawable/ic_services" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:padding="5dp"
+                    android:text="Service Type"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/service_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="Service Type"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textColor="@color/text_color" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text="Status"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintEnabled="false">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/service_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Select Service Status"
+                        android:inputType="none" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text="Update Date"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintEnabled="false">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/status_update_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Status Update Date"
+                        android:inputType="none" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="SPOC Detail"
+                    android:textColor="@color/navy"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:drawableStartCompat="@drawable/ic_spoc" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:padding="5dp"
+                    android:text="Sales Man"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintEnabled="false">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/sales_man"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Select Sales Man"
+                        android:inputType="none" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:padding="5dp"
+                    android:text="Service Man"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintEnabled="false"
+                    android:layout_marginBottom="20dp">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/service_man"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Select Service Man"
+                        android:inputType="none" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/submit_service"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/bio"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Submit"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+          </ScrollView>
+</RelativeLayout>

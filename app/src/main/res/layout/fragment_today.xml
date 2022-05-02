@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.FragmentToday">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/customer_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include
+        android:id="@+id/emptyLayout"
+        layout="@layout/empty"
+        android:visibility="gone" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="10dp"
+        android:backgroundTint="@color/blue"
+        android:src="@drawable/ic_add"
+        app:borderWidth="0dp"/>
+
+</FrameLayout>

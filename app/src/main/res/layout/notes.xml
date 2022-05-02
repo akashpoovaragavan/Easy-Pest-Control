@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SERVICE COMPLETED DETAILS"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Service Details and Service Charges"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:fontFamily="@font/montserrat"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:maxLines="10"
+            android:padding="5dp"
+            android:background="@drawable/custom_edittxt"
+            android:hint="Enter details"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/finish"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_button"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="Finish"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

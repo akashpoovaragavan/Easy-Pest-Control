@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable-v24/custom_button.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable-v24/custom_linear.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable-v24/home_back_screen.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable-v24/ic_arrow_white.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable-v24/ic_person_black.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/assign_white.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/bottom_nav_border.xml" value="0.21614583333333334" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/bt_ui.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/custom_edittext.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/custom_edittxt.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/custom_edittxt2.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/custom_img.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/custom_lin1.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/customer_lin.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/follow_up_white.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_add.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_arrow.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_arrow_forward.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_assign.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_converted.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_follow_up.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_home.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_leads.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_leads_black.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_logout.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_more.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_notifications.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_payment.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_payment_black.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_person.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_person_black.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_services.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_services_white.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_spoc.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_step.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_switch.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_task.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_task_white.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/ic_view.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/leads_white.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/login_back.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/spinner.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/tab_back.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/drawable/tab_indicator.xml" value="0.2203125" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout-mdpi/activity_main.xml" value="0.10416666666666667" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout-mdpi/fragment_home.xml" value="0.14583333333333334" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_create_new_leads.xml" value="0.2" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_customer_details_screen.xml" value="0.25" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_home_screen_sales.xml" value="0.15806159420289856" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_home_screen_service.xml" value="0.15806159420289856" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_login_screen.xml" value="0.21" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_main.xml" value="0.16485507246376813" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_main2.xml" value="0.1816123188405797" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_profile_screen.xml" value="0.25" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_report_screen.xml" value="0.25" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_report_service_screen.xml" value="0.2" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_service_completed_screen.xml" value="0.22" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_service_details_screen.xml" value="0.25" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/activity_task_details_screen.xml" value="0.25" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/appbar.xml" value="0.16847826086956522" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/customer.xml" value="0.33" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/empty.xml" value="0.16893115942028986" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_assign.xml" value="0.1598731884057971" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_converted.xml" value="0.15" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_follow.xml" value="0.1598731884057971" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_leads.xml" value="0.18" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_month.xml" value="0.14764492753623187" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_payment.xml" value="0.1598731884057971" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_service.xml" value="0.1816123188405797" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_service_home.xml" value="0.25" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_service_month.xml" value="0.16757246376811594" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_service_payment.xml" value="0.1816123188405797" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_service_today.xml" value="0.16757246376811594" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_service_week.xml" value="0.16757246376811594" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_task.xml" value="0.1816123188405797" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_today.xml" value="0.1585144927536232" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_today_payment.xml" value="0.17255434782608695" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/fragment_week.xml" value="0.14764492753623187" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/leads.xml" value="0.5" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/list_down.xml" value="0.13541666666666666" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/new_view.xml" value="0.21" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/no_internet_dialog.xml" value="0.22" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/notes.xml" value="0.16757246376811594" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/payment.xml" value="0.17255434782608695" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/qr_code.xml" value="0.16757246376811594" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/service.xml" value="0.17708333333333334" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/serviceman_pick.xml" value="0.1816123188405797" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/signature.xml" value="0.16757246376811594" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/layout/today_layout.xml" value="0.15307971014492755" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/menu/bottom_nav.xml" value="0.20416666666666666" />
+        <entry key="..\:/EasyPestControl/app/src/main/res/menu/bottom_nav2.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
